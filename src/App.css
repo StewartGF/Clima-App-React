@@ -19,11 +19,13 @@ body {
 .container-clima {
   width: 80%;
   height: 70%;
-  margin: 10px;
-  padding: 45px;
+  margin: 30px;
+  padding: 55px;
   background: white;
   border-radius: 25px;
   position: relative;
+  white-space: normal;
+  overflow: hidden;
 }
 ::selection {
   background: rgb(255, 166, 0);
@@ -52,9 +54,10 @@ body {
   font-size: 2.5vw;
 }
 .RightContent {
-  color: #fbab7e;
+  color: #eb8950;
   font-size: 16px;
   text-align: center;
+  padding-top: 60px;
 }
 .RightContent h1 {
   font-size: 11vw;
@@ -79,6 +82,12 @@ body {
   align-content: center;
   text-align: center;
 }
+.bottomText {
+  font-size: 3vh;
+  align-content: center;
+  text-align: center;
+}
+
 .botonBuscar {
   border-color: #fbab7e;
   color: #fbab7e;
@@ -99,4 +108,18 @@ body {
 .hovered:focus {
   outline: none !important;
   box-shadow: none;
+}
+.iconoClima {
+  width: 7vw;
+  height: 7vw;
+}
+
+.tempText {
+  font-size: 5h;
+  color: #240955;
+}
+.tempValue {
+  font-size: 5.5vw;
+  color: #eb8950;
+  text-align: inherit;
 }

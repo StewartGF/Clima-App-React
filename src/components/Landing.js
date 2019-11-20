@@ -10,22 +10,22 @@ export default function Landing({ mensaje }) {
         </div>
         <div className="react-typical">
           <p>
-            Puedes buscar {""}
+            Puedes buscar el clima en {""}
             <Typical
               loop={Infinity}
               wrapper="b"
               steps={[
                 "Santiago - Chile 📌 ",
                 1000,
-                "Guadalajara - Mexico 🌎 ",
+                "Cancún - México 🚢 ",
+                1000,
+                "Madrid - España 🌎 ",
                 1000,
                 "New York - Estados Unidos 🚖 ",
                 1000,
                 "Mendoza - Argentina 🚠 ",
                 1000,
                 "Acapulco - México 🚤 ",
-                1000,
-                "Cancún - México 🚢 ",
                 1000,
                 "Chicago - Estados Unidos 🚔 ",
                 1000,
@@ -34,6 +34,7 @@ export default function Landing({ mensaje }) {
               ]}
             />
           </p>
+          <p className="bottomText">Y muchos más 😁 !</p>
         </div>
       </div>
     </div>

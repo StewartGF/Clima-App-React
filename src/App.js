@@ -41,7 +41,7 @@ function App() {
 
   let componente;
   if (landing) {
-    componente = <Landing mensaje="Bienvenido!"></Landing>;
+    componente = <Landing mensaje="Bienvenido! ✌"></Landing>;
   } else if (informacion.cod === "404") {
     componente = (
       <Landing mensaje="El lugar que estás buscando no existe"></Landing>
