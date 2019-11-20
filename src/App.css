@@ -1,22 +1,102 @@
-.App {
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.divHeader {
+  width: 100%;
+  height: 15%;
+}
+.divContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container-clima {
+  width: 80%;
+  height: 70%;
+  margin: 10px;
+  padding: 45px;
+  background: white;
+  border-radius: 25px;
+  position: relative;
+}
+::selection {
+  background: rgb(255, 166, 0);
+  color: white;
+}
+::-moz-selection {
+  background: rgb(255, 166, 0);
+  color: white;
+}
+.input-lg {
+  font-size: 2.5vh;
+}
+
+.centered-content {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.LeftContent {
+  font-size: 2.5vw;
+}
+.RightContent {
+  color: #fbab7e;
+  font-size: 16px;
+  text-align: center;
+}
+.RightContent h1 {
+  font-size: 11vw;
+}
+.LeftContent h1 {
+  font-size: 3vw;
+}
+
+.loading {
+  font-size: 5vw;
+  align-content: center;
+  text-align: center;
+}
+.mensajeLanding {
+  font-size: 5vw;
+  align-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.react-typical {
+  font-size: 5.6vh;
+  align-content: center;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.botonBuscar {
+  border-color: #fbab7e;
+  color: #fbab7e;
+}
+.hovered:hover {
+  background: #da7840;
   color: white;
+  border-color: #da7840;
+  transform: scale(1.04);
 }
 
-.App-link {
-  color: #09d3ac;
+.hovered:active {
+  transition: 0.5s ease, transform 0.2s ease;
+  border-color: #da7840;
+  transform: scale(0.93);
+}
+
+.hovered:focus {
+  outline: none !important;
+  box-shadow: none;
 }
