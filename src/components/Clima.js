@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Clima({ informacion }) {
   //Saco la informacion relevante desde "informacion"
-  const { name, main, weather } = informacion;
+  const { name, main } = informacion;
 
   //Convierto la info en Celsius
   const kelvin = 273.15;

@@ -46,6 +46,10 @@ function App() {
     componente = (
       <Landing mensaje="El lugar que estás buscando no existe"></Landing>
     );
+  } else if (informacion.cod === "429") {
+    componente = (
+      <Landing mensaje="Parece que mi APIKey expiró, contáctame!"></Landing>
+    );
   } else {
     componente = <Clima informacion={informacion}></Clima>;
   }

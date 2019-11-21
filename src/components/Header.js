@@ -47,11 +47,14 @@ export default function Header({ datosBusqueda }) {
             <option hidden value="">
               Selecciona un país
             </option>
-            <option value="CL">Chile</option>
             <option value="AR">Argentina</option>
+            <option value="BR">Brasil</option>
+            <option value="CL">Chile</option>
+            <option value="CO">Colombia</option>
+            <option value="EC">Ecuador</option>
+            <option value="ES">España</option>
             <option value="MX">México</option>
             <option value="US">Estados Unidos</option>
-            <option value="ES">España</option>
           </select>
           <button
             className="btn  my-2 my-sm-0 input-lg botonBuscar hovered"
