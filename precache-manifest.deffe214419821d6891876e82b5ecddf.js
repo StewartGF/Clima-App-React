@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a9de7524baf2a9ee6018f92cf49f7fb",
+    "revision": "c4328f2376449bdbe30b1a5d6d16d959",
     "url": "/Clima-App-React/index.html"
   },
   {
-    "revision": "d632df90658ee7aa4c23",
-    "url": "/Clima-App-React/static/css/main.cec80549.chunk.css"
+    "revision": "e4adf4986cd3bec6756e",
+    "url": "/Clima-App-React/static/css/main.fcac810f.chunk.css"
   },
   {
     "revision": "8ffeed16ef93f0068319",
     "url": "/Clima-App-React/static/js/2.cca50120.chunk.js"
   },
   {
-    "revision": "d632df90658ee7aa4c23",
-    "url": "/Clima-App-React/static/js/main.12598c74.chunk.js"
+    "revision": "e4adf4986cd3bec6756e",
+    "url": "/Clima-App-React/static/js/main.728475d2.chunk.js"
   },
   {
     "revision": "02c723c58a2306b0c291",
