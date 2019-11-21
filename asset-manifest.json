@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Clima-App-React/static/css/main.0d17be15.chunk.css",
+    "main.css": "/Clima-App-React/static/css/main.cec80549.chunk.css",
     "main.js": "/Clima-App-React/static/js/main.12598c74.chunk.js",
     "main.js.map": "/Clima-App-React/static/js/main.12598c74.chunk.js.map",
     "runtime-main.js": "/Clima-App-React/static/js/runtime-main.818d0c16.js",
@@ -8,14 +8,14 @@
     "static/js/2.cca50120.chunk.js": "/Clima-App-React/static/js/2.cca50120.chunk.js",
     "static/js/2.cca50120.chunk.js.map": "/Clima-App-React/static/js/2.cca50120.chunk.js.map",
     "index.html": "/Clima-App-React/index.html",
-    "precache-manifest.c1d9f21c08bce85b96623bb00caab381.js": "/Clima-App-React/precache-manifest.c1d9f21c08bce85b96623bb00caab381.js",
+    "precache-manifest.119e384fb944fa7975c276c1ce28784b.js": "/Clima-App-React/precache-manifest.119e384fb944fa7975c276c1ce28784b.js",
     "service-worker.js": "/Clima-App-React/service-worker.js",
-    "static/css/main.0d17be15.chunk.css.map": "/Clima-App-React/static/css/main.0d17be15.chunk.css.map"
+    "static/css/main.cec80549.chunk.css.map": "/Clima-App-React/static/css/main.cec80549.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.818d0c16.js",
     "static/js/2.cca50120.chunk.js",
-    "static/css/main.0d17be15.chunk.css",
+    "static/css/main.cec80549.chunk.css",
     "static/js/main.12598c74.chunk.js"
   ]
 }
