@@ -9,6 +9,7 @@ https://stewartgf.github.io/Clima-App-React/
 ## Preview
 
 - App (20,Nov.2019)
+
   ![](https://thumbs.gfycat.com/SaltyGlossyHoatzin-small.gif)
 
 ## Versiones usadas
