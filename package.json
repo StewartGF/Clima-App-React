@@ -2,7 +2,7 @@
   "name": "clima-app-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://StewartGF.github.io/Clima-App-React/",
+  "homepage": "https://StewartGF.github.io/Clima-App-React",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
