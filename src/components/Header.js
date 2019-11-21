@@ -24,7 +24,7 @@ export default function Header({ datosBusqueda }) {
   return (
     <div>
       <nav className="navbar navbar-light bg-light d-flex justify-content-center">
-        <a href="/" className="navbar-brand  ">
+        <a href="/Clima-App-React/" className="navbar-brand  ">
           <i className="fas fa-temperature-high fa-lg"></i>
         </a>
 

@@ -3,7 +3,7 @@ import Typical from "react-typical";
 
 export default function Landing({ mensaje }) {
   return (
-    <div className="centered-content animated bounce">
+    <div className="centered-contentLanding animated bounce">
       <div className="container-clima ">
         <div className="mensajeLanding">
           <p>{mensaje}</p>
