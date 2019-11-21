@@ -31,7 +31,7 @@ export default function Header({ datosBusqueda }) {
         <form className="form-inline" onSubmit={consultaClima}>
           <input
             required
-            className="form-control mr-sm-2 input-lg"
+            className="form-control mr-sm-2 input-lg glowing-border"
             type="search"
             placeholder="Ciudad"
             aria-label="Search"
@@ -39,7 +39,7 @@ export default function Header({ datosBusqueda }) {
             onChange={handleChange}
           />
           <select
-            className="form-control mr-sm-2 input-lg"
+            className="form-control mr-sm-2 input-lg glowing-border"
             name="pais"
             required
             onChange={handleChange}

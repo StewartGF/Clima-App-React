@@ -21,7 +21,7 @@ export default function Landing({ mensaje }) {
                 1000,
                 "Madrid - España 🌎 ",
                 1000,
-                "New York - Estados Unidos 🚖 ",
+                "Miami - Estados Unidos🚖 ",
                 1000,
                 "Mendoza - Argentina 🚠 ",
                 1000,
@@ -34,8 +34,8 @@ export default function Landing({ mensaje }) {
               ]}
             />
           </p>
-          <p className="bottomText">Y muchos más 😁 !</p>
         </div>
+        <p className="bottomText">Y muchos más 😁 !</p>
       </div>
     </div>
   );

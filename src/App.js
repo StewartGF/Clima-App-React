@@ -51,13 +51,13 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <div className="divHeader">
         <Header datosBusqueda={datosBusqueda}></Header>
       </div>
       {loading && <Loading></Loading>}
       {!loading && <div className="divContainer">{componente}</div>}
-    </div>
+    </>
   );
 }
 
