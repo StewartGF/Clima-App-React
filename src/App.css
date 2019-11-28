@@ -33,8 +33,19 @@ body {
   padding: 55px;
   background: white;
   border-radius: 25px;
+  /* 
+  Position Relative permite que al achicarse la pantalla el contenedor no pierda un borde o se achique
+  de un lado más que otro.
+  Me permite manejar el contenido dentro de este div/container para que todo quede dentro.
+  */
   position: relative;
   white-space: hidden;
+  /* 
+  Si no estuviese usando Bootstrap para asignarle que sea row al container y que los div hijos tengan md-6 y md-6 por ej.
+  tendría que usar Flexbox
+  display:flex
+  y así controlar lo que esté dentro de este container.  
+  */
 }
 ::selection {
   background: rgb(255, 166, 0);
